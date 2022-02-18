@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/Core/Inc",
+                "${workspaceRoot}/Drivers/STM32F7xx_HAL_Driver/Inc",
+                "${workspaceRoot}/Drivers/CMSIS/Include",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F7xx/Include",
+                "${workspaceRoot}/Drivers/BMI160_driver",
+                "${workspaceRoot}/Drivers/BMI160_driver/Inc",
+                "${workspaceRoot}/Drivers/Sensors",
+                "${workspaceRoot}/Drivers/Sensors/Inc",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_v2",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/portable",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/machine",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/newlib-nano",
+                "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/sys"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F746xx"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "compilerArgs": [],
+            "mergeConfigurations": false,
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/Core/Inc",
+                    "${workspaceRoot}/Drivers/STM32F7xx_HAL_Driver/Inc",
+                    "${workspaceRoot}/Drivers/CMSIS/Include",
+                    "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F7xx/Include",
+                    "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include",
+                    "C:/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1",
+                    "C:/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include",
+                    "C:/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            }
+        }
+    ],
+    "version": 4
+}
