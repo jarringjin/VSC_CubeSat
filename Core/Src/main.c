@@ -545,9 +545,8 @@ void Sensor_Reading_Task(void *argument)
   {
    // HAL_GPIO_TogglePin(LD3_GPIO_Port,LD3_Pin);
 
-   float dc18b20_temp  = ds18b20_output();
-   printf("temp : %f \n",dc18b20_temp);    
-   // HAL_GPIO_TogglePin(LD2_GPIO_Port,LD2_Pin);
+   float ds18b20_temp  = ds18b20_output();
+   printf("temp : %f \n",ds18b20_temp);  // will be deleted!!   
    HAL_Delay(1000);
 
     //osDelay(1);
